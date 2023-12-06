@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Shruthi!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe4e1; /* Set your desired background color */
+            background-image: url('path/to/cat-photo.jpg'); /* Replace with your cat photo */
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 50px;
+            color: #333; /* Set text color to a readable color */
+        }
+
+        h1 {
+            color: #ff4081;
+        }
+
+        p {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .emoji {
+            font-size: 30px;
+            margin-top: 10px;
+        }
+        .cat {
+            font-size: 80px;
+            animation: catAnimation 2s ease-in-out infinite;
+        }
+
+        @keyframes catAnimation {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Birthday Shruthi!</h1>
+    <div class="cat-container">
+        <div class="cat">😸</div>
+    </div>
+    <p>Wishing you a day filled with joy, laughter, and lots of love!</p>
+    <p class="emoji">🎉 🎂 🎁 🎈 🥳</p>
+    <p>May your year ahead be as amazing as you are!</p>
+</body>
+</html>
